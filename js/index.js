@@ -1,3 +1,8 @@
+function myFunction() {
+    var popup = document.getElementById("myPopup");
+    popup.classList.toggle("show");
+  }
+
 // function to set a theme
 function setTheme(themeName) {
     localStorage.setItem('theme', themeName);
